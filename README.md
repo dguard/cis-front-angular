@@ -14,6 +14,10 @@
 
 [API](https://github.com/dguard/cis-django-rest-worker-webhook-websocker-graphl)
 
+## Captures
+<p align="center">
+  <img src="/captures/exchange-rates.png" width="320" alt="screenshot" />
+</p>
 
 ## Installation
 
