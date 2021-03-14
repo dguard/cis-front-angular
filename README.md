@@ -5,14 +5,12 @@
 ## Description
 [Angular](https://github.com/angular/angular) is a development platform for building mobile and desktop web applications using Typescript/JavaScript and other languages.
 
-### \>CIS
 
-\>Frontend Angular
+| Service | Repo |
+| --- | --- |
+| Frontend Angular 📦 | cis-front-angular (you are inside) |
+| API 🐍| [cis-api-django](https://github.com/dguard/cis-django-rest-worker-webhook-websocker-graphl) |
 
-
-### CIS Django Api Websocket Webhook Graphql
-
-[API](https://github.com/dguard/cis-django-rest-worker-webhook-websocker-graphl)
 
 ## Captures
 <p align="center">
