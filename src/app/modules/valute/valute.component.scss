@@ -1,0 +1,91 @@
+:host .fields ::ng-deep .mat-form-field {
+  font-size: 17px;
+  margin-right: 20px;
+  //width: auto;
+}
+:host .fields ::ng-deep .mat-select-value {
+  max-width: 100%;
+  width: auto;
+}
+
+:host .fields ::ng-deep .mat-form-field-type-mat-select:not(.mat-form-field-disabled) .mat-form-field-flex {
+  background: #fff;
+}
+
+:host .fields ::ng-deep .mat-form-field-appearance-legacy .mat-form-field-wrapper {
+  margin-top: 2px;
+}
+:host .fields ::ng-deep  .mat-form-field-flex {
+  border-radius: 4px 4px 0 0;
+  padding: .75em .75em 0 .75em !important;
+}
+.hint {
+  margin-bottom: 10px !important;
+}
+.hint span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Structure */
+.table-container {
+    overflow: auto;
+    height: auto;
+    width: 80vw;
+    margin:5vh auto 9vh auto!important;
+}
+
+.add-button {
+    position: absolute;
+    top: 15vh;
+    /*right:15vw;*/
+    right: 13vw;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 2;
+}
+
+.table-loading-shade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 56px;
+    right: 0;
+    background: rgba(0, 0, 0, 0.01);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Column Widths */
+.mat-column-number,
+.mat-column-state {
+    max-width: 64px;
+}
+
+.mat-column-created {
+    max-width: 124px;
+}
+
+/* applyFilter */
+.table-header {
+    padding: 0px 8px 0px 24px;
+}
+
+.mat-form-field {
+    font-size: 14px;
+    width:75vw;
+    height: 10vh !important;
+}
+.table-header{
+    padding-top: 3vh !important;
+}
+
+.button-row, .mat-column-personid {
+    display: flex;
+    justify-content: center;
+}

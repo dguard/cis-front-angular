@@ -1,0 +1,33 @@
+<mat-toolbar class="toolbar" color="warn">
+  <h1 class="menu" routerLink="/" style="cursor: pointer;">CIS-Angular</h1>
+  <span class="spacer"></span>
+
+
+  <button mat-icon-button [matMenuTriggerFor]="profileMenu">
+    <mat-icon>person_pin</mat-icon>
+  </button>
+
+  <!--USER PROFILE MENU-->
+  <mat-menu #profileMenu="matMenu">
+    <button mat-menu-item disabled>
+      <mat-icon>supervisor_account</mat-icon>
+      <span>Modify account</span>
+    </button>
+
+    <button mat-menu-item (click)="openDialog()">
+      <mat-icon>exit_to_app</mat-icon>
+      <span>Logout</span>
+    </button>
+  </mat-menu>
+</mat-toolbar>
+
+<mat-drawer-container>
+  <mat-drawer mode="side" opened></mat-drawer>
+
+  <mat-drawer-content>
+    <div class="loading-overlay" #progressBar>
+      <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+    </div>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>
