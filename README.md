@@ -9,7 +9,7 @@
 | Service | Repo |
 | --- | --- |
 | Frontend Angular 📦 | cis-front-angular (you are inside) |
-| API 🐍| [cis-api-django](https://github.com/dguard/cis-django-rest-worker-webhook-websocker-graphl) |
+| API 🐍| [cis-api-django](https://github.com/dguard/cis-api-django) |
 
 
 ## Captures
