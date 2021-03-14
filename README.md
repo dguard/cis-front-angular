@@ -16,7 +16,7 @@
 
 ## Captures
 <p align="center">
-  <img src="/captures/exchange-rates.png" width="320" alt="screenshot" />
+  <img src="/captures/exchange-rates.png" alt="screenshot" />
 </p>
 
 ## Installation
